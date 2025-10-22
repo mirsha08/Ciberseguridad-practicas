@@ -13,7 +13,27 @@ Objetivo: documentar mi aprendizaje, crear un repositorio para demostrar mis hab
 - **Python** – Scripts para automatización y análisis.
 
 ## 📁 Estructura (se irá actualizando)
-ciberseguridad-practicas/ │ ├── wireshark/ │ └── ejercicios-captura.md │ └── capturas-ejemplo.pcapng │ ├── nmap/ │ └── escaneos-basicos.md │ └── resultados-ejemplo.txt │ ├── osint/ │ └── informe-osint-ejemplo.md │ ├── vulnerabilidades/ │ └── simulacion-openvas.md │ ├── scripts-python/ │ └── fuerza_bruta_simulada.py │ └── analizador_logs.py │ └── README.md
+ciberseguridad-practicas/ 
+│
+├── wireshark/
+│    └── ejercicios-captura.md
+│    └── capturas-ejemplo.pcapng 
+│
+├── nmap/
+│    └── escaneos-basicos.md
+│    └── resultados-ejemplo.txt 
+│
+├── osint/ 
+│    └── informe-osint-ejemplo.md 
+│  
+├── vulnerabilidades/ 
+│    └── simulacion-openvas.md 
+│  
+├── scripts-python/ 
+│    └── fuerza_bruta_simulada.py 
+│    └── analizador_logs.py 
+│
+└── README.md
 
   ## Objetivos y Logros:
 
