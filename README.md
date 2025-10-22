@@ -15,16 +15,20 @@ Objetivo: documentar mi aprendizaje, crear un repositorio para demostrar mis hab
 ## 📁 Estructura (se irá actualizando)
 ciberseguridad-practicas/  
   ├── wireshark/ 
-    └── ejercicios-captura.md    
+    └── ejercicios-captura.md
+    
     └── capturas-ejemplo.pcapng 
   
   ├── nmap/  
-    └── escaneos-basicos.md 
+    └── escaneos-basicos.md
+    
     └── resultados-ejemplo.txt  
   
-  ├── osint/ 
+  ├── osint/
+  
     └── informe-osint-ejemplo.md  
-    ├── vulnerabilidades/ 
+  
+  ├── vulnerabilidades/ 
     └── simulacion-openvas.md  
   
   ├── scripts-python/  
