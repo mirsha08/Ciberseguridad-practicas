@@ -16,10 +16,12 @@ Ejercicios básicos realizadas con Wireshark, objetivo: captura y análisis de t
 
 ### Objetivo
 Capturar tráfico HTTP generado al acceder a una página web y analizar los paquetes transmitidos.
-Ejercicios realizados en entorno Kali Linux.
+Como el trafico http está siendo reemplazado por cifrado, usamos la web http://neverssl.com para ver http sin cifrar en el ejercicio.
+Ejercicios realizados en entorno Kali Linux y windows..
 
 ### Herramientas
 - Wireshark
+- Npap (entorno Windows)
 - Navegador web
 
 ### Pasos realizados
@@ -27,7 +29,7 @@ Ejercicios realizados en entorno Kali Linux.
 1. Abrir **Wireshark** -->Seleccionar interfaz de red activa (ej:`wlan0`).
 2. Aplicar filtro HTTP
 3. Iniciar captura --> acceder a http://neverssl.com desde el navegador.
-4. Detener la captura tras unos segundos.
+4. Detener la captura tras unos segundos (F5 para recargar la página y generar tráfico).
 5. Analizar los paquetes capturados:
    - Se puede identificar la solicitud `GET` al servidor.
    - Observamos la respuesta `HTTP/1.1 200 OK`.
@@ -38,9 +40,26 @@ Ejercicios realizados en entorno Kali Linux.
 - Es posible identificar el User-Agent del navegador y la IP del servidor remoto.
 
 ###  Archivos adjuntos
-- [`captura-http-neverssl.pcapng`](./capturas-ejemplo.pcapng): archivo de captura generado.
-- Captura de pantalla del análisis de paquetes (opcional).
+-Se puede realizar una captura de pantalla en formato pcanpg.
+Exportar parte de la captura (opcional) Si quieres guardar solo los paquetes HTTP:
+   Ve a Archivo > Export Specified Packets
+   Marca “Displayed” (para exportar solo lo filtrado)
+   Guarda como http-only.pcapng
 
+### Analizar paquete HTTP
+clic en una línea que diga GET / o HTTP/1.1 200 OK. 
+Panel superior: muestra el resumen del paquete.
+Panel medio: despliega detalles por capas (Ethernet, IP, TCP, HTTP).
+Panel inferior: muestra el contenido hexadecimal y ASCII.
+
+Busca:
+Método HTTP (GET, POST)
+Encabezados como Host, User-Agent, Accept
+Respuesta del servidor (200 OK, Content-Type, etc.)
+
+### Seguir una conversación TCP
+Clic derecho en un paquete HTTP → Follow > TCP Stream. 
+Esto te mostrará toda la conversación entre cliente y servidor.
 ---
 
 ##  Próximos ejercicios sugeridos
