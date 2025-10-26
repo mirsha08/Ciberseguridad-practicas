@@ -2,6 +2,7 @@
 Ejercicios creados para usar herramientas de ciberseguridad, Wireshark, Nmap, escaneos, etc
 
 Este repositorio contiene ejercicios prácticos realizados con herramientas básicas de ciberseguridad. 
+Gestión de un Diario de Gestión de incidentes.
 Objetivo: documentar mi aprendizaje, crear un repositorio para demostrar mis habilidades técnicas, validar mis certificados CCST e IT Specialist Cybersecurity.
 
 ## Herramientas utilizadas
