@@ -17,7 +17,7 @@ Se utiliza para filtrar paquetes en la expresión regular (regex) que se especif
 **Barra de herramientas de filtrado**
 Se pueden aplicar los filtros en la barra de herramientas
 
-##EJEMPLOS DE FILTRADO
+## EJEMPLOS DE FILTRADO
 * Por protocolos, (dns, http, ftp, ssh, arp, telnet, icmp..)
 * Dirección IP.
   -que contienen una direcc ip--> ip.addr == 127.168.0.1
