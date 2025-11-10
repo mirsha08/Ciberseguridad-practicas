@@ -19,7 +19,7 @@ Se pueden aplicar los filtros en la barra de herramientas
 
 ## EJEMPLOS DE FILTRADO
 * Por protocolos, (dns, http, ftp, ssh, arp, telnet, icmp..)
-* Dirección IP.
+* Dirección IP.  
   -que contienen una direcc ip--> ip.addr == 127.168.0.1  
   -que se originan desde una direcc ip --> ip.src == 8.8.8.8  
   -filtrar por ip de destino --> ip.dst == 268.251.2.62  
