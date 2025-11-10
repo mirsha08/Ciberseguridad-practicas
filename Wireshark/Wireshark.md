@@ -1,5 +1,14 @@
 Wireshark es un analizador de protocolos de red de código abierto. Utiliza una interfaz gráfica de usuario (GUI), lo que facilita la visualización de las comunicaciones de red con fines de análisis de paquetes. 
 Wireshark permite personalizar los filtros.
+Columnas de Wireshark
+- No.: el número de índice del paquete en este archivo de captura de paquetes
+- Time: la marca de tiempo del paquete
+- Source: la dirección IP de origen
+- Destination: la dirección IP de destino
+- Protocol: el protocolo contenido en el paquete
+- Length: la longitud total del paquete
+- Info: cierta información sobre los datos en el paquete (la carga útil) según la interpretación de Wireshark
+No todos los paquetes de datos tienen el mismo color. Se utilizan reglas de colores para proporcionar indicaciones visuales de alto nivel que te ayudarán a clasificar rápidamente los diferentes tipos de datos. Dado que los archivos de captura de paquetes de red pueden contener grandes cantidades de datos, puedes usar reglas de colores para identificar rápidamente los datos que consideras relevantes.
 
 **Filtros de visualización**
 Wireshark permite usar filtros a archivos de captura de paquetes. 
