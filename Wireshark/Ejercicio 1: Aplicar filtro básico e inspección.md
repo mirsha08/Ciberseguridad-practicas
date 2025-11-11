@@ -1,4 +1,4 @@
-# ANALISIS DE PAQUETES CON WIRESHARK_ practicas  
+# ANALISIS DE PAQUETES CON WIRESHARK_ prácticas  
 
 Archivo de captura de paquetes *.pcap
 descripción general de las columnas de propiedades clave que se muestran para cada paquete:
